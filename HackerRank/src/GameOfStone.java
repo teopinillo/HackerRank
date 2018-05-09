@@ -28,16 +28,16 @@ public class GameOfStone {
 			// TODO Auto-generated constructor stub
 		}
 
-		public int roll (int p, int st) {
-			int w = winner (p, st);
-			 if (w>0) return w;
-			  
-			  st5 = new Play (nxtP,st-5);
-			  st3 = new Play (nxtP,st-3);
-			  st2 = new Play (nxtP,st-2);
-			  return 0;
-		}
-	}
+		//public int roll (int p, int st) {
+		//	int w = winner (p, st);
+		//	 if (w>0) return w;
+		//	  
+		//	  st5 = new Play (nxtP,st-5);
+		//	  st3 = new Play (nxtP,st-3);
+		//	  st2 = new Play (nxtP,st-2);
+		//	  return 0;
+		//}
+	//}
 	
 	static int winner (int p, int st) {	
 		 if (p==2){
