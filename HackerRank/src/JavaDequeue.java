@@ -44,6 +44,7 @@ public class JavaDequeue {
                 }
             }
             System.out.println (maxU);
+            in.close();
         }
     
 }
